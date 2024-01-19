@@ -32,6 +32,7 @@ Rules for calculating a delivery fee
   * Example 2: If the number of items is 5, 50 cents surcharge is added
   * Example 3: If the number of items is 10, 3€ surcharge (6 x 50 cents) is added
   * Example 4: If the number of items is 13, 5,70€ surcharge is added ((9 * 50 cents) + 1,20€)
+  * Example 5: If the number of items is 14, 6,20€ surcharge is added ((10 * 50 cents) + 1,20€)
 * The delivery fee can __never__ be more than 15€, including possible surcharges.
 * The delivery is free (0€) when the cart value is equal or more than 200€. 
 * During the Friday rush, 3 - 7 PM, the delivery fee (the total fee including possible surcharges) will be multiplied by 1.2x. However, the fee still cannot be more than the max (15€). Considering timezone, for simplicity, **use UTC as a timezone in backend solutions** (so Friday rush is 3 - 7 PM UTC). **In frontend solutions, use the timezone of the browser** (so Friday rush is 3 - 7 PM in the timezone of the browser).
