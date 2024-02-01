@@ -32,7 +32,7 @@ Rules for calculating a delivery fee
 * If the number of items is five or more, an additional 50 cent surcharge is added for each item above and including the fifth item. An extra "bulk" fee applies for more than 12 items of 1,20€
   * Example 1: If the number of items is 4, no extra surcharge
   * Example 2: If the number of items is 5, 50 cents surcharge is added
-  * Example 3: If the number of items is 10, 3€ surcharge (6 x 50 cents) is added
+  * Example 3: If the number of items is 10, 3€ surcharge (6 * 50 cents) is added
   * Example 4: If the number of items is 13, 5,70€ surcharge is added ((9 * 50 cents) + 1,20€)
   * Example 5: If the number of items is 14, 6,20€ surcharge is added ((10 * 50 cents) + 1,20€)
 * The delivery fee can __never__ be more than 15€, including possible surcharges.
